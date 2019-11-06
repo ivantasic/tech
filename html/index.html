@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+  <html lang="rs">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ovo je pocetna strana">
+  <meta name="keywords" content="index, pocetna, ukratko, putuj, putujtravel">
+  <meta name="author" content="Ivan Tašić, taskefull@gmail.com">
+
+
+  <title>Tech - Online kupovina računarske opreme</title>
+  <link rel="shortcut icon" type="image/x-icon" href="tlogo.png" />
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+</head>
+
+<body> 
+
+  <!--
+<div id="load_screen">
+<div id="loading"></dib>
+</div>
+-->
+
+  <header class="masthead header visinahedera">
+
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <!-- Kontakt;Lokacija -->
+        <div class="p-2 kontakt">
+          <ul>
+            <li style="color: white;"><a href="kontakt.html">Kontakt</a></li>
+            <li class="separator"></li>
+            <li style="color: white;"><a href="kontakt.html">Lokacije</a></li>
+          </ul>
+        </div>
+
+        <!-- Social -->
+        <div class="p-2 social">
+          <ul>
+            <li><a href="https://www. instagram.com"><i class="fab fa-instagram"></i></a></li>
+
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Header 2-->
+  <header class="masthead header2 visinahedera2">
+    <div class="container">
+      <div class="d-flex justify-content-center">  
+        <div class="p-2"> 
+          <form class="form-inline md-form form-sm mt-0">
+            <div class="input-group">  
+              <input size="40;" type="text" class="form-control" id="exampleInputAmount"
+                placeholder="Pretražite veliki broj računara na rasprodaji"> 
+              <button style="background-color: #325583;" class="btn btn-default" type="submit"><i style="color: white;"
+                  class="fas fa-search"></i></button> 
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--navbar-->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a href="index.html"><img style="width: 100px; height: 35px; padding: 2px;" src="Untitled1.png"></a>
+      <div class="nav-item dropdown">
+        <a style="text-align: center; color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+          role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Proizvodi
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><i class="fas fa-mouse"></i> Miševi</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-keyboard"></i> Tastature</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-desktop"></i> Monitori</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Laptopovi</a>
+          <a class="dropdown-item" href="#"><i class="fas fa-laptop"></i> Računari</a>
+          <a class="dropdown-item" href="#"></a>
+        </div>
+      </div>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+
+            <a class="nav-link" href="#">Početna <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <h6 style="color: #d1d1d1; padding: 8px;" class="fa fa-user" aria-hidden="true"> Fizička lica</h6><span
+            style="color: #4477B9; font-size: 20px">011 44 14 000</span>
+
+          <i style="color: #d1d1d1; padding: 8px;" class="fa fa-user" aria-hidden="true"> Pravna lica</i><span
+            style="color: #4477B9; font-size: 20px"><b>011 44 14 000</b></span>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <!-- Slajder  -->
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active auto-heihgt">
+          <picture>
+              <source srcset="small.gif" media="(max-width: 640px)">
+        <img class="w-100 mx-auto d-block" src="akcija2.gif" alt="First slide">
+        </picture>
+      </div>
+      <div class="item carousel-item auto-heihgt">
+          <picture>
+              <source srcset="small3.jpg" media="(max-width: 640px)">
+        <img class="d-block w-100" src="akcija.gif" alt="Second slide">
+                </picture>
+      </div>
+      <div class="carousel-item auto-heihgt">
+          <picture>
+              <source srcset="small1.gif" media="(max-width: 640px)">
+        <img class="d-block w-100" src="akcija3.jpg" alt="Third slide">
+        </picture>
+      </div>
+      <div class="carousel-item auto-heihgt">
+          <picture>
+              <source srcset="small2.jpg" media="(max-width: 640px)">
+        <img class="d-block w-100" src="akcija4.jpg" alt="Third slide">
+        </picture>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Proizvodi-->
+
+
+  <div class="container">
+    <h1 style="font-size: 25px; margin: 25px;"> Najprodavaniji proizvodi</h1>
+    <div class="row no-gutters">
+
+      
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <figure class="card card-product">
+          
+          <div class="tt">
+          <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+          <div class="middle">
+            <button class="text">Detaljnije</button>
+          </div>
+          </div>
+
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            </i><i class="fas fa-star-half-alt"></i>
+
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div> 
+        </figure>
+      </div>
+     
+
+      <div class="col-lg-3 col-md-3 col-sm-6">
+          <figure class="card card-product">
+            
+            <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+  
+            <h4 class="title">Mis JETION</h4>
+            <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+            <hr>
+            <h5>Ocena kupaca:</h5>
+            <div class="rating-wrap">
+  
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </i><i class="fas fa-star-half-alt"></i>
+  
+            </div>
+            <div class="bottom-wrap">
+              <div class="usteda float-right">20%</div>
+              <div class="price-wrap h5">
+                <h5>Cena:</h5>
+                <span>1280 din</span>
+              </div>
+            </div> 
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6">
+            <figure class="card card-product">
+              
+              <div class="tt">
+              <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+              <div class="middle">
+                <button class="text">Detaljnije</button>
+              </div>
+              </div>
+    
+              <h4 class="title">Mis JETION</h4>
+              <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+              <hr>
+              <h5>Ocena kupaca:</h5>
+              <div class="rating-wrap">
+    
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                </i><i class="fas fa-star-half-alt"></i>
+    
+              </div>
+              <div class="bottom-wrap">
+                <div class="usteda float-right">20%</div>
+                <div class="price-wrap h5">
+                  <h5>Cena:</h5>
+                  <span>1280 din</span>
+                </div>
+              </div> 
+            </figure>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+              <figure class="card card-product">
+                
+                <div class="tt">
+                <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+                <div class="middle">
+                  <button class="text">Detaljnije</button>
+                </div>
+                </div>
+      
+                <h4 class="title">Mis JETION</h4>
+                <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+                <hr>
+                <h5>Ocena kupaca:</h5>
+                <div class="rating-wrap">
+      
+                  <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                  </i><i class="fas fa-star-half-alt"></i>
+      
+                </div>
+                <div class="bottom-wrap">
+                  <div class="usteda float-right">20%</div>
+                  <div class="price-wrap h5">
+                    <h5>Cena:</h5>
+                    <span>1280 din</span>
+                  </div>
+                </div> 
+              </figure>
+            </div>
+    
+
+      
+
+    </div>
+
+  </div>
+
+<!--Kraj proizvoda-->
+
+
+<!-- Nacin placanja -->
+
+  <div class="container">
+    <div class="col-sm-12">
+      <div style="margin-top: 50px;" class="row text-center">
+        <picture>
+          <source srcset="Naciniplacanja1_mobile.jpg" media="(max-width: 640px)">
+          <img alt="nacini placanja" src="Naciniplacanja.jpg">
+        </picture>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nacin placanja kraj -->
+
+
+<!-- Proizvodi dva-->
+
+  <div class="container">
+    <hr>
+    <h1 style="font-size: 25px; margin: 25px;">Novo u ponudi</h1>
+    <div class="row no-gutters">
+  
+      <div class="col-xl col-md-4 col-sm-4 col-md-offset-1">
+        <figure class="card card-product">
+          <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+  
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div>
+          <a href="" class="btn btncustom btn-primary float-right">Pogledaj</a>
+        </figure>
+      </div>
+  
+      <div class="col-xl col-md-4 col-sm-4">
+        <figure class="card card-product">
+          <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+  
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div>
+          <a href="" class="btn btncustom btn-primary float-right">Pogledaj</a>
+        </figure>
+      </div>
+  
+      <div class="col-xl col-md-4 col-sm-4">
+        <figure class="card card-product">
+          <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+  
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div>
+          <a href="" class="btn btncustom btn-primary float-right">Pogledaj</a>
+        </figure>
+      </div>
+  
+      <div class="col-xl col-md-4 col-sm-4">
+        <figure class="card card-product">
+          <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+  
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div>
+          <a href="" class="btn btncustom btn-primary float-right">Pogledaj</a>
+        </figure>
+      </div>
+  
+      <div class="col-xl col-md-4 col-sm-4">
+        <figure class="card card-product">
+          <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+  
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div>
+          <a href="" class="btn btncustom btn-primary float-right">Pogledaj</a>
+        </figure>
+      </div>
+      
+      <div class="col-xl col-md-4 col-sm-4 d-none d-lg-block d-xl-none d-none d-md-block d-lg-none">
+        <figure class="card card-product">
+          <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+          <h4 class="title">Mis JETION</h4>
+          <p class="desc">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+          <hr>
+          <h5>Ocena kupaca:</h5>
+          <div class="rating-wrap">
+  
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+  
+          </div>
+          <div class="bottom-wrap">
+            <div class="usteda float-right">20%</div>
+            <div class="price-wrap h5">
+              <h5>Cena:</h5>
+              <span>1280 din</span>
+            </div>
+          </div>
+          <a href="" class="btn btncustom btn-primary float-right">Pogledaj</a>
+        </figure>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <!-- Kraj proizvodi dva-->
+
+<!-- Gejmerski setup -->
+
+  <div style="background-image: url(gsetup.jpg);" class="container-fluid">
+    <div style="padding: 20px;  " class="container">
+      <h1 style="font-size: 30px; color: white; margin: 10px;">Gejmerski setup</h1>
+      <div class="row no-gutters">
+        
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <figure class="card card-product">
+            
+            <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomn" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+  
+            <h4 class="title">Mis JETION</h4>
+            <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+            <hr>
+            <h5>Ocena kupaca:</h5>
+            <div class="rating-wrap">
+  
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </i><i class="fas fa-star-half-alt"></i>
+  
+            </div>
+            <div class="bottom-wrap">
+              <div class="usteda float-right">20%</div>
+              <div class="price-wrap h5">
+                <h5>Cena:</h5>
+                <span>1280 din</span>
+              </div>
+            </div> 
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <figure class="card card-product">
+            
+            <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+  
+            <h4 class="title">Mis JETION</h4>
+            <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+            <hr>
+            <h5>Ocena kupaca:</h5>
+            <div class="rating-wrap">
+  
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </i><i class="fas fa-star-half-alt"></i>
+  
+            </div>
+            <div class="bottom-wrap">
+              <div class="usteda float-right">20%</div>
+              <div class="price-wrap h5">
+                <h5>Cena:</h5>
+                <span>1280 din</span>
+              </div>
+            </div> 
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <figure class="card card-product">
+            
+            <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+  
+            <h4 class="title">Mis JETION</h4>
+            <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+            <hr>
+            <h5>Ocena kupaca:</h5>
+            <div class="rating-wrap">
+  
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </i><i class="fas fa-star-half-alt"></i>
+  
+            </div>
+            <div class="bottom-wrap">
+              <div class="usteda float-right">20%</div>
+              <div class="price-wrap h5">
+                <h5>Cena:</h5>
+                <span>1280 din</span>
+              </div>
+            </div> 
+          </figure>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <figure class="card card-product">
+            
+            <div class="tt">
+            <img class="h-75 w-75 mx-auto d-block zoomin" src="img/mis.png">
+            <div class="middle">
+              <button class="text">Detaljnije</button>
+            </div>
+            </div>
+  
+            <h4 class="title">Mis JETION</h4>
+            <p class="desc float-right">Mis jetion, 1200dpi, duzina kabla 2m, gejmerski mis</p>
+            <hr>
+            <h5>Ocena kupaca:</h5>
+            <div class="rating-wrap">
+  
+              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </i><i class="fas fa-star-half-alt"></i>
+  
+            </div>
+            <div class="bottom-wrap">
+              <div class="usteda float-right">20%</div>
+              <div class="price-wrap h5">
+                <h5>Cena:</h5>
+                <span>1280 din</span>
+              </div>
+            </div> 
+          </figure>
+        </div>
+
+
+      </div>
+    </div>
+    <hr>
+  </div>
+
+<!-- Gejmerski setup kraj -->
+
+<!--footer-->
+  <div style="background-color: #282828; color: white; margin-top: 10px;" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="footercall">
+          <hr style="background-color: white;">
+          <h1 style="padding-bottom: 10px;">CALL CENTAR  <i class="fas fa-phone"></i></h1>
+          <p><i class="fa fa-user"></i></i> Fizicka lica: 011 204 205 206</p>
+          <p><i class="fa fa-user"></i></i> Pravna lica: 011 205 206 207</p>
+          <hr style="background-color: white;">
+        </div>
+        </div>
+        <div class="col-4">
+            <hr style="background-color: white;">
+          <ul>
+            <li>Kontakt</li>
+            <li>Lokacije</li>
+          </ul>
+          <hr style="background-color: white;">
+        </div>
+        <div class="col-4">
+            <hr style="background-color: white;">
+            <div class="social2">
+              <h1 style="padding-bottom: 10px;">PRATITE NAS</h1>
+            <ul>
+                <li><a href="https://www. instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+    
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+    
+                <li><a href="https://www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a></li>
+                <li><a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+              </ul>
+            <hr style="background-color: white;">
+          </div>
+        </div>
+        <h1></h1>
+      </div>
+    </div>
+  </div>
+  
+
+  <!--footer visa, nacin placanja-->
+  <div style="background-color: #1F1F1F; padding: 20px; color: white;" class="container-fluid">
+  <div  class="container">
+    <div class="placanje">
+    <ul>
+      <li><img  src="visa.jpg" alt=""></li>
+      <li><img  src="master.jpg" alt=""></li>
+      <li><img src="komercijalna.png" alt=""></li>
+      <li><img  src="master.jpg" alt=""></li>
+    </ul>
+    <p>Uslovi korišćenja | Politika privatnosti | © 2008 - 2019 Tech Shop d.o.o. Sva prava zadržana.
+        Cene na sajtu su iskazane u dinarima sa uračunatim porezom, a plaćanje se vrši isključivo u dinarima.
+        Nastojimo da budemo što precizniji u opisu proizvoda, prikazu slika i samih cena, ali ne možemo garantovati da su sve informacije kompletne i bez grešaka.
+        Svi artikli prikazani na sajtu su deo naše ponude i ne podrazumeva da su dostupni u svakom trenutku. Raspoloživost robe možete proveriti pozivanjem
+        Call Centra na 011 205 206 207 (po ceni lokalnog poziva)</p>
+  </div>
+  </div>
+</div>
+
+<!--footer kraj-->
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <script src="js/javascript.js"></script>
+</body>
+</html>

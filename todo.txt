@@ -1,0 +1,4 @@
+TODO: Zavrsi footer
+    
+TODO: Zavrsi proizvodi kada se prosiri preko hovera
+
