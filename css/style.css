@@ -134,6 +134,12 @@ li.separator {
   text-decoration: none;
 }
 
+.kontakt li {
+  font-size: 15px;
+}
+
+@media 
+
 .btncustom {
   background-color: #325583;
   color: white;
@@ -301,8 +307,9 @@ li.separator {
   }
 
 @media only screen and (max-width: 425px) {
-    
-    
+    .header {
+      display: none;
+    }
     .card {
       border-style: none;
       border-bottom: 1px solid ;
