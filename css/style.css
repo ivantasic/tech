@@ -50,20 +50,16 @@ img {
   height: auto;
 }
 
-
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
+.navigacija li {
+  display: inline;
 }
 
-
-
+.navigacija ul {
+  text-decoration: none;;
+}
+.navigacija a {
+  color: black;
+}
 
 .wrapper{
   min-width: px;
@@ -138,15 +134,14 @@ li.separator {
   font-size: 15px;
 }
 
-@media 
-
 .btncustom {
   background-color: #325583;
-  color: white;
+  color: #fff;
   border-color: #325583;
   width: 100px;
   border-radius: 0;
 }
+
 .btncustom:hover {
   background-color: #3d679c;
   border-color: #3d679c;
@@ -196,10 +191,6 @@ li.separator {
 
 .nav-item p {
     font-size: 20px;
-}
-
-.inside_padding {
- 
 }
 
 .card {
@@ -273,18 +264,6 @@ li.separator {
   color: white;
   font-size: 16px;
   padding: 14px 22px;
-}
-
-
-.row.no-gutters {
-  margin-right: 10px;
-  margin-left: 10px;
-
-  & > [class^="col-"],
-  & > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
 }
 
 
