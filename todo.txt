@@ -3,3 +3,5 @@ TODO: Zavrsi proizvodi kada se prosiri preko hovera
 
 
 TODO: Popravi sjalder na najvecem ekranu, proveri jos jednom
+
+faq slika na manjim dimenzijama

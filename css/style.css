@@ -363,7 +363,8 @@ li.separator {
 
 .footerlista a:hover {
   text-decoration: none;
+}      
+
+.nav-tabs a {
+  color: black;
 }
-
-
-
