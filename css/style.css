@@ -480,3 +480,13 @@ li.separator {
   background-color: #fff;
   z-index: 9;
   }
+
+.mapasajta {
+  margin-bottom: 300px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.mapa {
+  margin-left: 40px;
+}
